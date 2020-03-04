@@ -1,14 +1,5 @@
 <% if notice.present? %>
   <p class="alert alert-info"><%= notice %></p>
 <% end %>
-<p>
-  <h2><%= @post.title %></h2>
-</p>
 
-<p class="text-muted">
-  <%= @post.created_at.to_formatted_s(:long_ordinal) %>
-</p>
-
-<p>
-  <%= simple_format @post.content %>
-</p>
+<%= render 'post', post: @post %>
