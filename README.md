@@ -1,25 +1,12 @@
-# README
+# crumblr - a very simple blog app in Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+[Project deployed on heroku](https://blooming-fjord-11588.herokuapp.com/)
 
-* Ruby version
+Lots of things I want to do to improve this app:
 
-* System dependencies
+* Use devise to allow user sign in, anyone can delete posts
 
-* Configuration
+* Form validation - anyone can post with no content
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# crumblr
